@@ -66,6 +66,9 @@ margin-top: 7em;
   background-size: cover;*/
 }
 .container{  margin-top: auto;}
+.container1{  margin-left: 1.5em;
+              margin-right: 1.5em;}
+
 
 
 
@@ -132,7 +135,7 @@ margin-top: 7em;
   			margin-bottom: 5%}
 	.rh {font-size: 1.14em}
 p {color:#93a1a1;
-		font-size: 1.4em;}
+		font-size: 1.6em;}
 
 .descp{padding-top: 4%;
 	padding-bottom: 4%;
@@ -172,6 +175,38 @@ p {color:#93a1a1;
 
 	.cent { margin-top: 11%;
 
-				}
+        }
+        p{font-size: 1.8em;}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+	.container1{  margin-left: 0em;
+    margin-right: 0em;}
+
+}
+
+@media only screen and (max-width: 991px) {
+
+  .profile-pic{margin-left: auto;
+  margin-right: auto;}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+	.cont-main {
+    padding-right: 0.9em;
+    padding-left: 0.9em;
+}
+.col-xs-10 {
+  width: 90%;
+}   
+.col-xs-offset-1 {
+  margin-left: 5%;
+}
+    
 
 }
